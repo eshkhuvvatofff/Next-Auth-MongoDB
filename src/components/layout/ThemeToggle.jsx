@@ -20,9 +20,9 @@ export function ThemeToggle() {
             className="relative inline-flex items-center justify-center rounded-md p-2 transition"
             aria-label="Toggle theme"
         >
-            <span className="border-2 border-black cursor-pointer dark:border-white  rounded-md p-2 ">
+            <span className="border-2 border-black cursor-pointer dark:border-white  rounded-md p-1.5 ">
                 {isLight ? (
-                    <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 text-yellow-400" />
+                    <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 text-red-500" />
                 ) : (
                     <Moon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 text-yellow-200" />
                 )}
