@@ -172,7 +172,7 @@ export default function Navbar() {
                                         <NavigationMenuItem key={index}>
                                             {link.submenu ? (
                                                 <>
-                                                    <NavigationMenuTrigger className="text-muted-foreground hover:text-primary bg-transparent px-2 py-1.5 font-medium *:[svg]:-me-0.5 *:[svg]:size-3.5">
+                                                    <NavigationMenuTrigger className="text-muted-foreground cursor-pointer hover:text-primary bg-transparent px-2 py-1.5 font-medium *:[svg]:-me-0.5 *:[svg]:size-3.5">
                                                         {link.label}
                                                     </NavigationMenuTrigger>
                                                     <NavigationMenuContent className="data-[motion=from-end]:slide-in-from-right-16! data-[motion=from-start]:slide-in-from-left-16! data-[motion=to-end]:slide-out-to-right-16! data-[motion=to-start]:slide-out-to-left-16! z-50 p-1">

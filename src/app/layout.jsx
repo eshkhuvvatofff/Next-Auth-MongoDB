@@ -2,8 +2,8 @@ import LayoutWrapper from "@/components/layout/LayoutWrapper";
 import "./globals.css";
 
 export const metadata = {
-  title: "Next-Auth-Mongodb",
-  description: "Next-auth-mongodb learning",
+  title: "Example Name",
+  description: "Example Desc",
   icons: {
     icon: "/Logo.png",
   },
